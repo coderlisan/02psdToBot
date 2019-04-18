@@ -1,0 +1,117 @@
+/* xl-container:1140px*/
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+
+}
+
+/* lg-container:960px*/
+@media (min-width: 992px) and (max-width: 1200px) {
+   
+.footer-widget form input {
+	width: 181px;
+	height: 35px;
+	text-align: left;
+	padding: 8px;
+}
+
+
+.footer-widget form button {
+	padding: 3px 28px;
+	color: #446f99;
+	background: #9ae9c7;
+	margin: 13px 0px;
+}
+
+.footer-widget p {
+	color: #f6f1b4b3;
+	line-height: 22px;
+	margin-bottom: 20px;
+}
+
+.footer-widget h3 {
+	color: #fff;
+	padding-top: 8px;
+}
+.blog-active .owl-nav button.owl-prev {
+	top: -84px;
+	left: 197px;
+	width: 19px;
+	height: 19px;
+	font-size: 10px;
+}
+
+.blog-active .owl-nav button.owl-next {
+	top: -84px;
+	left: 225px;
+	width: 19px;
+	height: 19px;
+	font-size: 10px;
+}
+
+
+.blog-content h5 {
+	font-size: 13px;
+}
+.blog-content p {
+	line-height: 21px;
+
+}
+.meta span a {
+	font-size: 13px;
+}
+
+
+.choise-title {
+	margin-bottom: 17px;
+}
+.choise-list {
+	margin-bottom: 5px;
+}
+
+}
+
+ 
+/* md-container:720px*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+}
+
+ 
+/* sm-container:540px*/
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+   
+   
+
+}
+
+/* xm-container:400px*/
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+   
+   
+
+}
+
+/* retina query */
+@media only screen and (-webkit-min-device-pixel-ratio:2) and (max-width:991.98px),only screen and (min--moz-device-pixel-ratio:2) and (max-width:991.98px),only screen and (-o-min-device-pixel-ratio:2/1) and (max-width:991.98px),only screen and (min-device-pixel-ratio:2) and (max-width:991.98px),only screen and (min-resolution:192dpi) and (max-width:991.98px),only screen and (min-resolution:2dppx) and (max-width:991.98px){
+
+.logo .standard-logo{
+  display: none;
+}
+.logo .retina-logo{
+  display: inline-block;
+}
+
+}
+
+
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2/1),only screen and (min-device-pixel-ratio:2),only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx){
+.logo .standard-logo{
+  display: none;
+}
+.logo .retina-logo{
+  display: inline-block;
+}
+
+}
