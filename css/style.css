@@ -1,2 +1,158 @@
+/* google-fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+body {
+   font-family: 'Poppins', sans-serif;
+   font-size: 15px;
+   line-height: 25px;
+   font-weight: 400
+}
+
+h1, h2, h3, h4, h5, h6 {
+   font-family: 'Poppins', sans-serif;
+}
+
+p {
+   font-family: 'Poppins', sans-serif;
+}
+
+/* header-area-start */
+.header-area {
+ padding: 0 50px;
+ position: absolute;
+ top: 0;
+ left: 0;
+ right: 0;
+ z-index: 9999;
+}
+.main-menu nav ul li a {
+	color: #343434;
+	font-weight: 600;
+	font-size: 14px;
+	padding: 55px 0px;
+	display: inline-block;
+	line-height: 1;
+}
+.slider-area img {
+	width: 100%;
+	margin: auto;
+}
+.main-menu nav ul li {
+	margin-left: 40px;
+}
+
+.hire-us a {
+	border: 1px solid #505cfd;
+	padding: 15px 55px;
+	border-radius: 30px;
+}
+.hire-us {
+ margin-top: 49px;
+}
+
+/* slider-area-start */
+.single-slider {
+	background-image: url(../imgs/bg.jpg);
+  height: 100vh;
+  transform: rotate(0deg);
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: top
+}
+
+.slider-icon .fa {
+	width: 50px;
+	height: 50px;
+	background: #5b93553d;
+	font-size: 17px;
+	color: #fff;
+	line-height: 50px;
+	text-align: center;
+	border-radius: 50%;
+	/*! border: var(--my-border); */
+	color: var(--my-bg-color);
+	
+}
+.slider-inner h2 {
+	font-size: 72px;
+	font-weight: 600;
+	color: #595959;
+	margin-bottom: 15px;
+}
+.slider-inner p {
+	font-size: 15px;
+	font-weight: 500;
+	color: #343434;
+	margin-bottom: 40px;
+}
+.slider-inner a.btn {
+	padding: 20px 40px;
+	border: var(--my-border);
+	border-radius: 30px;
+	font-size: 14px;
+	color: #595959;
+	font-weight: 600;
+	font-family: poppins;
+}
+.slider-icon {
+	margin: 25px 0px;
+}
+/* features-area-start */
+.bg-themes {
+	background: var(--theme-bg);
+	padding: 60px 0px;
+	border-radius: 10px; 
+}
+.single-feature i {
+	color: #fff;
+	margin-bottom: 30px;
+	display: block;
+	font-size: 30px;
+}
+.single-feature h3 {
+	color: #fff;
+	font-weight: 600;
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+.single-feature p {
+	color: #fff;
+	font-size: 15px;
+	line-height: 25px; 
+}
+.features-area {
+	margin-top: -100px;
+	z-index: 9999;
+	position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
