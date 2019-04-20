@@ -2,41 +2,43 @@
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 body {
-   font-family: 'Poppins', sans-serif;
-   font-size: 15px;
-   line-height: 25px;
-   font-weight: 400
+	font-family: 'Rubik', sans-serif;
+	font-size: 15px;
+	line-height: 25px;
+	font-weight: 400
 }
 
 h1, h2, h3, h4, h5, h6 {
-   font-family: 'Poppins', sans-serif;
-}
-
-p {
-   font-family: 'Poppins', sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 /* header-area-start */
+
 .header-area {
- padding: 0 50px;
- position: absolute;
- top: 0;
- left: 0;
- right: 0;
- z-index: 9999;
+	padding: 0 50px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 9999;
 }
+
 .main-menu nav ul li a {
 	color: #343434;
 	font-weight: 600;
 	font-size: 14px;
-	padding: 55px 0px;
-	display: inline-block;
 	line-height: 1;
 }
+.main-menu nav ul li {
+	display: inline-block;
+  padding: 55px 0px;
+}
+
 .slider-area img {
 	width: 100%;
 	margin: auto;
 }
+
 .main-menu nav ul li {
 	margin-left: 40px;
 }
@@ -46,16 +48,18 @@ p {
 	padding: 15px 55px;
 	border-radius: 30px;
 }
+
 .hire-us {
- margin-top: 49px;
+	margin-top: 49px;
 }
 
 /* slider-area-start */
+
 .single-slider {
 	background-image: url(../imgs/bg.jpg);
-  height: 100vh;
-  transform: rotate(0deg);
-	background-position: center; 
+	height: 100vh;
+	transform: rotate(0deg);
+	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position-y: top
@@ -72,20 +76,22 @@ p {
 	border-radius: 50%;
 	/*! border: var(--my-border); */
 	color: var(--my-bg-color);
-	
 }
+
 .slider-inner h2 {
 	font-size: 72px;
 	font-weight: 600;
 	color: #595959;
 	margin-bottom: 15px;
 }
+
 .slider-inner p {
 	font-size: 15px;
 	font-weight: 500;
 	color: #343434;
 	margin-bottom: 40px;
 }
+
 .slider-inner a.btn {
 	padding: 20px 40px;
 	border: var(--my-border);
@@ -95,64 +101,256 @@ p {
 	font-weight: 600;
 	font-family: poppins;
 }
+
 .slider-icon {
 	margin: 25px 0px;
 }
+
 /* features-area-start */
+
+.about-area {
+	margin: 110px 0;
+}
+
 .bg-themes {
 	background: var(--theme-bg);
 	padding: 60px 0px;
-	border-radius: 10px; 
+	border-radius: 10px;
 }
+
 .single-feature i {
 	color: #fff;
 	margin-bottom: 30px;
 	display: block;
 	font-size: 30px;
 }
+
 .single-feature h3 {
 	color: #fff;
 	font-weight: 600;
 	font-size: 22px;
 	margin-bottom: 20px;
 }
+
 .single-feature p {
 	color: #fff;
 	font-size: 15px;
-	line-height: 25px; 
+	line-height: 25px;
 }
+
 .features-area {
 	margin-top: -100px;
 	z-index: 9999;
 	position: relative;
 }
 
+.about-text a.btn {
+	border: 1px solid #505cfd;
+	padding: 15px 55px;
+	border-radius: 30px;
+}
 
+.about-text p {
+	color: #666;
+	font-size: 15px;
+	margin-bottom: 48px;
+}
 
+.about-text h3 {
+	font-size: 32px;
+	font-weight: 600;
+	color: #404044;
+	margin-bottom: 30px;
+}
 
+.about-text h3::before {
+	position: absolute;
+	width: 79px;
+	height: 2px;
+	color: red;
+	background: #3082a8;
+	top: 80px;
+	left: 18px;
+	content: "";
+}
 
+/* subscribe-area-start */
 
+.subscribe-area {
+	background-image: url(../imgs/form.jpg);
+	height: 300px;
+	transform: rotate(0deg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
+.area-title h3 {
+	font-size: 32px;
+	margin-bottom: 20px;
+}
+.subscribe-form form input {
+	width: 25%;
+	margin: 21px 10px;
+	border: 0;
+	border-radius: 10px;
+	height: 45px;
+	color: #83807b;
+	background: #42313117;
+	text-align: center;
+	padding: 0 20px;
+}
+.subscribe-form form button {
+	border: 0;
+	background: #505cfd;
+	color: #fff;
+	height: 45px;
+	padding: 0 30px;
+	border-radius: 30px;
+	margin-left: 20px;
+}
+/* subscribe-area-ends  */
 
+/* .services-wrapper  start*/
+.services-wrapper:hover{background: #222;border-color: #222}
+.services-wrapper {
+	padding: 50px 30px;
+	border: 1px solid #ddd;
+	transition: all .3s ease
+}
+.services-wrapper i {
+	font-size: 48px;
+	color: #505cfd;
+	display: block;
+	margin-bottom: 10px;
+}
+.services-wrapper h3 {
+	font-size: 22px;
+	margin-bottom: 25px;
+	color: #222;
+}
+.services-wrapper:hover h3{color: #fff}
+.services-wrapper a.btn {
+	padding: 20px 40px;
+	border: var(--my-border);
+	border-radius: 30px;
+	font-size: 14px;
+	color: #595959;
+	font-weight: 600;
+	font-family: poppins;
+}
+.services-wrapper:hover a.btn{color: #fff}
+.services-wrapper p {
+	margin-bottom: 60px;
+	color: #777;
+}
+.services-wrapper:hover p{color: #ddd}
+/* .services-wrapper  ends*/
 
+/* .pricing-area start*/
+.pricing-wrapper h3 {
+	font-size: 22px;
+	padding: 35px 0px;
+	border: 1px solid #cfd1fc;
+}
+.pricing-wrapper {
+  border: 1px solid #cfd1fc;
+  transition: all .3s ease;
+  background: #ddd; 
+}
+.pricing-wrapper span  {
+	font-size: 40px;
+	font-weight: 600;
+	color: #505cfd;
+	position: relative;
+	margin-top: 20px;
+	display: inline-block;
+	margin-bottom: 21px;
+}
+.pricing-wrapper span span {
+	font-size: 20px;
+	margin-top: 30px;
+	display: inline-block;
+	position: absolute;
+	top: -37px;
+	left: -14px;
+}
+.pricing-wrapper ul li {
+	display: block;
+	padding: 7px 0px;
+	font-size: 15px;
+}
+.pricing-wrapper a.btn {
+	padding: 20px 40px;
+	border: var(--my-border);
+	border-radius: 30px;
+	font-size: 14px;
+	color: #212547;
+	font-weight: 600;
+	font-family: poppins;
+	margin: 30px 0px;
+}
+.pricing-wrapper:hover {
+	background: #fff;
+	box-shadow: 2px 2px 10px #866b6b;
+}
+.pricing-wrapper:hover a.btn{
+	background: #505cfd; 
+	color: #fff
+}
+/* .pricing-area ends */
+/* .counter-area start */
+.counter-area {
+	background: #505cfd;
+	color: #fff;
+}
+.counter-wrapper i {
+	font-size: 30px;
+	display: block;
+	margin-bottom: 20px;
+}
+.counter-wrapper span {
+	font-family: 'Poppins', sans-serif;
+	margin-bottom: 10px;
+	display: block;
+	font-weight: 400;
+	font-size: 30px;
+}
+/* .team-area start */
+.team-wrapper{position: relative;}
+.team-wrapper:hover .team-img::before {opacity: 1;visibility:visible}
+.team-wrapper:hover .team-info{opacity: 1;visibility:visible}
+.team-info {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	transform: translateY(-50%);
+	transition: all 1s ease-out;
+	opacity: 0;
+	visibility: hidden;
+}
+.team-img::before {
+	position: absolute;
+	top: 30px;
+	bottom: 30px;
+	left: 50px;
+	right: 50px;
+	content: "";
+	background: #fff9;
+	transition: all .3s ease-out;
+	visibility: hidden;
+	opacity: 0;
+}
+.team-icon a {
+	color: #000;
+	margin: 0px 3px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.team-icon {
+	margin-top: 10px;
+}
+.team-info h3 {
+	margin: 5px 0px;
+}

@@ -8,6 +8,11 @@ $(document).ready(function () {
         arrows:false,
         dots:false
     });
+// counter-area
+$('.counter').counterUp({
+    delay: 10,
+    time: 5000
+});
 
 
     // function-last-brackets
