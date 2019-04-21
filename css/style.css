@@ -385,13 +385,13 @@ h1, h2, h3, h4, h5, h6 {
 	position: absolute;
 	top: 30px;
 	bottom: 30px;
-	left: 50px;
-	right: 50px;
+	left: 30px;
+	right: 30px;
 	content: "";
 	background: #ffffffe6;
 	transition: all .3s ease-out;
 	visibility: hidden;
-	opacity: 0;
+	opacity: 0
 }
 
 .team-icon a {
@@ -511,9 +511,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 ul.footer-link li a::before {
-	content: "\25AE";
 	font-family: FontAwesome;
-	font-weight: 900
+	top: 0;
+	left: -5px;
+	padding-right: 10px;
+	content: "\f0a9";
 }
 
 .footer-link li {
