@@ -32,7 +32,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .main-menu nav ul li {
 	display: inline-block;
-	padding: 55px 0px;
+	padding: 0px 0px;
+	z-index: 9999 !important;
 }
 
 .slider-area img {
@@ -515,7 +516,7 @@ ul.footer-link li a::before {
 	top: 0;
 	left: -5px;
 	padding-right: 10px;
-	content: "\f0a9";
+	content: "\f105";
 }
 
 .footer-link li {
@@ -576,3 +577,146 @@ ul.footer-link li a {
 	border-top: 1px solid #777;
 	padding: 30px 0;
 }
+
+/* mega and submenu options */
+
+.main-menu ul {
+	padding: 50px 0px;
+}
+
+.main-menu ul li {
+	display: inline-block;
+	margin-left: 40px;
+	position: relative
+}
+
+.main-menu ul li a {
+	color: #666;
+	font-size: 15px;
+	font-family: serif;
+	display: block
+}
+
+.main-menu ul li a:hover {
+	color: #4272d7
+}
+
+/* submenu */
+
+.main-menu ul li ul.submenu {
+	position: absolute;
+	border-top: 3px solid #4272d7;
+	width: 260px;
+	background: #171a21;
+	padding: 0px;
+	margin: 50px 0px;
+	transition: .3s;
+	opacity: 0;
+	visibility: hidden;
+	left: 0;
+	top: 110%;
+	z-index: 9999;
+}
+
+.main-menu ul li:hover ul.submenu {
+	opacity: 1;
+	visibility: visible;
+	top: 100%
+}
+
+.main-menu ul li ul.submenu li {
+	display: block;
+	margin: 0;
+	border-bottom: 2px solid #1e2128;
+}
+
+.main-menu ul li ul.submenu li:last-child {
+	border: 0px
+}
+
+.main-menu ul li ul.submenu li a {
+	padding: 15px 20px;
+	color: white;
+	font-size: 12px;
+	transition: .3s;
+	text-decoration: none;
+}
+
+.main-menu ul li ul.submenu li a:hover {
+	background: #4272d7;
+	padding-left: 30px
+}
+
+/* sub submenu */
+
+.main-menu ul li ul.submenu li ul.submenu {
+	position: absolute;
+	left: 100%;
+	top: 0%;
+	opacity: 0;
+	visibility: hidden;
+	margin: 0;
+}
+
+.main-menu ul li ul.submenu li:hover>ul.submenu {
+	opacity: 1;
+	visibility: visible
+}
+
+.main-menu ul li ul.submenu li:hover>ul.submenu {}
+
+.main-menu ul li ul.submenu li:hover>a {
+	background: #4272d7
+}
+
+/* mega menu */
+
+.main-menu ul li .mega-menu {
+	position: absolute;
+	width: 600px;
+	background: #171a21;
+	top: 110%;
+	left: -651%;
+	opacity: 0;
+	visibility: hidden;
+	transition: .3s;
+	margin: 50px 0px;
+	z-index: 9999;
+}
+
+.main-menu ul li .mega-menu ul {
+	float: left;
+	width: 33.33%;
+	text-align: center;
+}
+
+.main-menu ul li:hover .mega-menu {
+	opacity: 1;
+	visibility: visible;
+	top: 100%;
+}
+
+.main-menu ul li .mega-menu ul:last-child {
+	padding-right: 0
+}
+
+.main-menu ul li .mega-menu ul li {
+	margin: 0;
+	display: block;
+	border-bottom: 2px solid #1e2128
+}
+
+.main-menu ul li .mega-menu ul li a {
+	padding: 15px 20px;
+	color: #ffffff;
+	font-size: 12px;
+	transition: .3s;
+	text-decoration: none;
+}
+
+.main-menu ul li .mega-menu ul li a:hover {
+	background: #4272d7;
+	padding-left: 30px
+}
+
+/* mega and submenu options */

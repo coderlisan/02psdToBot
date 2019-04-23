@@ -9,6 +9,7 @@
    <link rel="stylesheet" href="fonts/font-awesome.min.css">
    <link rel="stylesheet" href="css/themify-icons.css">
    <link rel="stylesheet" href="css/slick.css">
+   <link rel="stylesheet" href="css/meanmenu.css">
    <!-- basic style file below -->
    <link rel="stylesheet" href="css/bootstrap.min.css">
    <link rel="stylesheet" href="css/default.css">
@@ -22,27 +23,86 @@
    <header class="header-area">
       <div class="container-fluid">
          <div class="row">
-            <div class="col-xl-3 d-flex align-items-center">
+            <div class="col-xl-3 d-flex align-items-center col-lg-3 col-md-2">
                <div class="logo">
                   <img src="imgs/logo.png" alt="">
                </div>
             </div>
-            <div class="col-xl-9">
-               <div class="hire-us float-right">
+            <div class="col-xl-9 col-lg-9 col-md-10">
+               <div class="hire-us float-right d-none d-md-block">
                   <a href="#">Hire Us</a>
                </div>
                <div class="main-menu">
-                  <nav>
+                  <nav id="mobile-menu-active">
                      <ul>
-                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a>
+
+                           <ul class="submenu">
+                              <li><a href="#">Primary HomeSub 11111</a></li>
+                              <li><a href="#">Primary HomeSub 22222</a></li>
+                              <li><a href="#">Primary HomeSub 55555</a>
+
+                                 <ul class="submenu">
+                                    <li><a href="#">Secondary HomeSub 11111</a></li>
+                                    <li><a href="#">Secondary HomeSub 22222</a></li>
+                                    <li><a href="#">Secondary HomeSub 33333</a></li>
+                                    <li><a href="#">Secondary HomeSub 44444</a></li>
+                                    <li><a href="#">Secondary HomeSub 55555</a></li>
+                                    <li><a href="#">Secondary HomeSub 66666</a></li>
+                                    <li><a href="#">Secondary HomeSub 77777</a></li>
+                                 </ul>
+
+                              </li>
+                              <li><a href="#">Primary HomeSub 66666</a></li>
+                              <li><a href="#">Primary HomeSub 33333</a></li>
+                              <li><a href="#">Primary HomeSub 77777</a></li>
+                              <li><a href="#">Primary HomeSub 88888</a></li>
+                           </ul>
+
+                        </li>
                         <li><a href="#">About us</a></li>
                         <li><a href="#">Portfolio</a></li>
                         <li><a href="#">Services</a></li>
-                        <li><a href="#">History</a></li>
+                        <li><a href="#">History</a>
+
+
+                           <div class="mega-menu">
+                              <ul>
+                                 <li><a href="#">First Item 11111</a></li>
+                                 <li><a href="#">First Item 22222</a></li>
+                                 <li><a href="#">First Item 33333</a></li>
+                                 <li><a href="#">First Item 44444</a></li>
+                                 <li><a href="#">First Item 55555</a></li>
+                                 <li><a href="#">First Item 66666</a></li>
+                                 <li><a href="#">First Item 77777</a></li>
+                              </ul>
+                              <ul>
+                                 <li><a href="#">Secound Item 11111</a></li>
+                                 <li><a href="#">Secound Item 22222</a></li>
+                                 <li><a href="#">Secound Item 33333</a></li>
+                                 <li><a href="#">Secound Item 44444</a></li>
+                                 <li><a href="#">Secound Item 55555</a></li>
+                                 <li><a href="#">Secound Item 66666</a></li>
+                                 <li><a href="#">Secound Item 77777</a></li>
+                              </ul>
+                              <ul>
+                                 <li><a href="#">Third Item 11111</a></li>
+                                 <li><a href="#">Third Item 22222</a></li>
+                                 <li><a href="#">Third Item 33333</a></li>
+                                 <li><a href="#">Third Item 44444</a></li>
+                                 <li><a href="#">Third Item 55555</a></li>
+                                 <li><a href="#">Third Item 66666</a></li>
+                                 <li><a href="#">Third Item 77777</a></li>
+                              </ul>
+                           </div>
+
+
+                        </li>
                         <li><a href="#">Clients</a></li>
                      </ul>
                   </nav>
                </div>
+               <div class="mobile-menu"></div>
             </div>
          </div>
       </div>
@@ -111,21 +171,21 @@
       <div class="container ">
          <div class="bg-themes">
             <div class="row">
-               <div class="col-xl-4">
+               <div class="col-xl-4 col-lg-4 col-md-4">
                   <div class="single-feature text-center">
                      <i class="ti-pencil-alt"></i>
                      <h3>Flexible Solutions</h3>
                      <p>Lorem ipsum dolor sit amet consec <br> tetur adipisicing elit. Natus, corporis.</p>
                   </div>
                </div>
-               <div class="col-xl-4">
+               <div class="col-xl-4  col-lg-4 col-md-4">
                   <div class="single-feature text-center">
                      <i class="ti-pencil-alt"></i>
                      <h3>Flexible Solutions</h3>
                      <p>Lorem ipsum dolor sit amet consec <br> tetur adipisicing elit. Natus, corporis.</p>
                   </div>
                </div>
-               <div class="col-xl-4">
+               <div class="col-xl-4  col-lg-4 col-md-4">
                   <div class="single-feature text-center">
                      <i class="ti-pencil-alt"></i>
                      <h3>Flexible Solutions</h3>
@@ -134,7 +194,6 @@
                </div>
             </div>
          </div>
-
       </div>
    </div>
    <!-- features-area-ends -->
@@ -142,7 +201,7 @@
    <div class="about-area">
       <div class="container">
          <div class="row">
-            <div class="col-xl-6">
+            <div class="col-xl-6 col-lg-6  col-md-12">
                <div class="about-text">
                   <h3>We are leader in wordpress Theme</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, modi quis! Quas autem
@@ -151,7 +210,7 @@
                   <a href="#" class="btn">Read More</a>
                </div>
             </div>
-            <div class="col-xl-6">
+            <div class="col-xl-6  col-lg-6 col-md-12">
                <div class="about-img">
                   <img class="img-fluid" src="imgs/laptop.png " alt="">
                </div>
@@ -164,7 +223,7 @@
    <div class="subscribe-area pt7 pb6">
       <div class="container">
          <div class="row">
-            <div class="col-xl-12">
+            <div class="col-xl-12 col-lg12 col-md-12">
                <div class="area-title text-center mb6">
                   <h3>Are you ready to be success with us?</h3>
                   <p class="mb5">Tell us about your story and your project.</p>
@@ -190,7 +249,7 @@
    <div class="services-area">
       <div class="container-fluid pb11 pt11">
          <div class="row">
-            <div class="col-xl-3">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb3">
                <div class="services-wrapper text-center">
                   <i class="ti-ruler-pencil"></i>
                   <h3>Web Design</h3>
@@ -200,7 +259,7 @@
                   <a class="btn" href="#">View Services</a>
                </div>
             </div>
-            <div class="col-xl-3">
+            <div class="col-xl-3  col-lg-3  col-md-6 col-sm-6 mb3">
                <div class="services-wrapper text-center">
                   <i class="ti-ruler-pencil"></i>
                   <h3>Web Design</h3>
@@ -210,7 +269,7 @@
                   <a class="btn" href="#">View Services</a>
                </div>
             </div>
-            <div class="col-xl-3">
+            <div class="col-xl-3  col-lg-3 col-md-6 col-sm-6 mb3">
                <div class="services-wrapper text-center">
                   <i class="ti-ruler-pencil"></i>
                   <h3>Web Design</h3>
@@ -220,7 +279,7 @@
                   <a class="btn" href="#">View Services</a>
                </div>
             </div>
-            <div class="col-xl-3">
+            <div class="col-xl-3  col-lg-3 col-md-6 col-sm-6 mb3">
                <div class="services-wrapper text-center">
                   <i class="ti-ruler-pencil"></i>
                   <h3>Web Design</h3>
@@ -246,8 +305,8 @@
                </div>
             </div>
          </div>
-         <div class="row justify-content-center">
-            <div class="col-xl-3">
+         <div class="row justify-content-between">
+            <div class="col-xl-3 col-lg-4 mb3  col-md-4">
                <div class="pricing-wrapper text-center">
                   <h3>Basic</h3>
                   <span> <span>$</span> 100</span>
@@ -261,7 +320,7 @@
                   <a href="#" class="btn">Purshase</a>
                </div>
             </div>
-            <div class="col-xl-3 mr2 ml2">
+            <div class="col-xl-3  mb3 col-lg-4 col-md-4">
                <div class="pricing-wrapper text-center">
                   <h3>Advanced</h3>
                   <span> <span>$</span> 100</span>
@@ -275,7 +334,7 @@
                   <a href="#" class="btn">Purshase</a>
                </div>
             </div>
-            <div class="col-xl-3">
+            <div class="col-xl-3  mb3 col-lg-4  col-md-4">
                <div class="pricing-wrapper text-center">
                   <h3>Pro</h3>
                   <span> <span>$</span> 100</span>
@@ -297,28 +356,28 @@
    <div class="counter-area pt6 pb3">
       <div class="container">
          <div class="row text-center  ">
-            <div class="col-xl-3">
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
                <div class="counter-wrapper mb3">
                   <i class="fa fa-edit fa-2x"></i>
                   <span class="counter">35,000</span>
                   <p>Happy Customers</p>
                </div>
             </div>
-            <div class="col-xl-3">
+            <div class="col-xl-3 col-lg-3  col-md-3 col-sm-6">
                <div class="counter-wrapper mb3">
                   <i class="fa fa-edit fa-2x"></i>
                   <span class="counter">35,000</span>
                   <p>Happy Customers</p>
                </div>
             </div>
-            <div class="col-xl-3">
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
                <div class="counter-wrapper mb3">
                   <i class="fa fa-edit fa-2x"></i>
                   <span class="counter">35,000</span>
                   <p>Happy Customers</p>
                </div>
             </div>
-            <div class="col-xl-3">
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
                <div class="counter-wrapper mb3">
                   <i class="fa fa-edit fa-2x"></i>
                   <span class="counter">35,000</span>
@@ -333,7 +392,7 @@
    <div class="team-area">
       <div class="container">
          <div class="row">
-            <div class="col-xl-3 pl0 pr0">
+            <div class="col-xl-3 pl0 pr0 col-lg-3 col-md-6">
                <div class="team-wrapper text-center">
                   <div class="team-img">
                      <img class="img-fluid" src="imgs/partner/01boy.jpg" alt="">
@@ -350,7 +409,7 @@
                   </div>
                </div>
             </div>
-            <div class="col-xl-3 pl0 pr0">
+            <div class="col-xl-3 pl0 pr0 col-lg-3 col-md-6">
                <div class="team-wrapper text-center">
                   <div class="team-img">
                      <img class="img-fluid" src="imgs/partner/01girl.jpg" alt="">
@@ -367,7 +426,7 @@
                   </div>
                </div>
             </div>
-            <div class="col-xl-3 pl0 pr0">
+            <div class="col-xl-3 pl0 pr0 col-lg-3 col-md-6">
                <div class="team-wrapper text-center">
                   <div class="team-img">
                      <img class="img-fluid" src="imgs/partner/02boy.jpg" alt="">
@@ -384,7 +443,7 @@
                   </div>
                </div>
             </div>
-            <div class="col-xl-3 pl0 pr0">
+            <div class="col-xl-3 pl0 pr0 col-lg-3 col-md-6">
                <div class="team-wrapper text-center">
                   <div class="team-img">
                      <img class="img-fluid" src="imgs/partner/02girl.jpg" alt="">
@@ -417,7 +476,7 @@
             </div>
          </div>
          <div class="row">
-            <div class="col-xl-4">
+            <div class="col-xl-4 col-lg-4">
                <div class="latest-blog mb3">
                   <div class="blog-thumb">
                      <img src="imgs/partner/01blog.jpg" alt="">
@@ -433,7 +492,7 @@
                   <a href="#" class="btn">Countinue Reading</a>
                </div>
             </div>
-            <div class="col-xl-4">
+            <div class="col-xl-4  col-lg-4">
                <div class="latest-blog mb3">
                   <div class="blog-thumb">
                      <img src="imgs/partner/01blog.jpg" alt="">
@@ -449,7 +508,7 @@
                   <a href="#" class="btn">Countinue Reading</a>
                </div>
             </div>
-            <div class="col-xl-4">
+            <div class="col-xl-4 col-lg-4">
                <div class="latest-blog mb3">
                   <div class="blog-thumb">
                      <img src="imgs/partner/01blog.jpg" alt="">
@@ -546,7 +605,7 @@
       <div class="footer-top-area pt7 pb4">
          <div class="container">
             <div class="row">
-               <div class="col-xl-4">
+               <div class="col-xl-4 col-lg-4 col-md-6 mb3">
                   <div class="footer-widget mb3">
                      <h3>Contact Us</h3>
                      <ul class="contact-list">
@@ -564,7 +623,7 @@
                   </div>
                </div>
 
-               <div class="col-xl-4">
+               <div class="col-xl-4  col-lg-4 col-md-6 mb3">
                   <div class="footer-widget mb3">
                      <h3>Usefull links</h3>
                      <ul class="footer-link">
@@ -582,7 +641,7 @@
                   </div>
                </div>
 
-               <div class="col-xl-4">
+               <div class="col-xl-4  col-lg-4 col-md-12 mb3">
                   <div class="footer-widget">
                      <h3>Blog and News</h3>
                      <ul class="footer-blog mb3">
@@ -643,6 +702,7 @@
    <script src="js/jquery-1.12.4.min.js"></script>
    <script src="js/popper.min.js"></script>
    <script src="js/bootstrap.min.js"></script>
+   <script src="js/jquery.meanmenu.min.js"></script>
    <script src="js/slick.min.js"></script>
    <script src="js/waypoints.min.js"></script>
    <script src="js/jquery.counterup.min.js"></script>
