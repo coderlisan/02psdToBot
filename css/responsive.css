@@ -172,6 +172,9 @@
   .testimonial-name span {
     font-size: 0;
   }
+  .footer-menu.text-right {
+	text-align: center !important;;
+}
 }
 
 /* retina query */
