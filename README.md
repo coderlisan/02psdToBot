@@ -1,2 +1,2 @@
 # 02p2b
-This is my second psd to html file on github. everybody 
+This is my second psd to html file on github. Bemax html template 
