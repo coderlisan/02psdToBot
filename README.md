@@ -1,3 +1,1 @@
-# 02p2b
-This is my second psd to html file on github. Bemax html template 
-Selim rana vai er Bemax project
+থিমফরেস্ট এর বিমেক্স টেমপ্লেট কে HTML ফাইলে কনভার্ট করেছি
